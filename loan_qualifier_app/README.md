@@ -10,7 +10,7 @@ Just after the title, introduce your project by describing attractively what the
 
 This script is written in Python 3.7, and the user will need to have [Python](https://www.python.org/downloads/) downloaded.
 
-The user will also need to install the following packages:
+The user will also need to install and/or import the following packages:
 
 * [sys](https://docs.python.org/3/library/sys.html) - For interacting with the interpreter.
 
