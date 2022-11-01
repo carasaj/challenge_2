@@ -16,7 +16,7 @@ Describe the technologies required to use your project such as programming langu
 
 ## Installation Guide
 
-The user will need to have ![<Python3>](<https://www.python.org/downloads/>) downloaded. 
+The user will need to have [Python3](https://www.python.org/downloads/) downloaded. 
 
 In this section, you should include detailed installation notes containing code blocks and screenshots.
 
