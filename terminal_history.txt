@@ -1,0 +1,17 @@
+    1  cd ..
+    2  cd Users
+    3  cd acjth
+    4  cd ajcth
+    5  cd documents
+    6  cd github
+    7  cd challenge_2
+    8  cd challenge_2
+    9  ls
+   10  git add .
+   11  git status
+   12  git commit -m 'committing from terminal line for project requirements'
+   13  git push
+   14  git add .
+   15  git commit -m 'checking repo integrations w/ local files'
+   16  git push
+   17  history 50 > terminal_history.txt
