@@ -115,7 +115,7 @@ def save_qualifying_loans(qualifying_loans):
         return print("There are no loan options, no file will be saved.")
     confirm_deny_csv_save = questionary.confirm('Would you like to save these results as a .csv file?').ask()
     if confirm_deny_csv_save == False:
-        return questionary.text('Output data will not be saved.')
+        return print('Output data will not be saved.')
     csvpath = Path(questionary.text('Enter the name of the file you would like to save to (.csv):').ask())
     with open(csvpath, 'w', newline='') as csvfile:
         csvwriter = csv.writer(csvfile)
