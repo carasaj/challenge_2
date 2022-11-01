@@ -43,7 +43,7 @@ python app.py
 
 The user then will run the script and follow the prompts to input their information. Here is an example:
 
-![Example CLI input and output](2022-10-31-15-52-30.png)
+![Example CLI input and output](example_CLI_input.png)
 
 ---
 
