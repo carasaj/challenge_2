@@ -26,7 +26,7 @@ In this section, you should include detailed installation notes containing code 
 
 The user will run the script and follow the prompts.
 
-![](2022-10-31-15-52-30.png)
+![Example CLI input and output](2022-10-31-15-52-30.png)
 
 This section should include screenshots, code blocks, or animations explaining how to use your project.
 
