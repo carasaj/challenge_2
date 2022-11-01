@@ -110,10 +110,11 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
-
-    questionary.confirm('Would you like to save these results as a .csv file?').ask()
+    confirm_deny_csv_save = questionary.confirm('Would you like to save these results as a .csv file?').ask()
+    if confirm_deny_csv_save == False:
+        return questionary.text('Output data will not be saved.')
     questionary.text('Please provide an output path for the .csv file.').ask()
-    
+
 
 
 
